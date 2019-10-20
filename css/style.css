@@ -879,7 +879,7 @@ section.about .about-img {
 
 section.about .about-img:before {
     content: "";
-    background-color: #f2f2f2;
+    background-color: #f3f3f3;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -980,6 +980,19 @@ section.services .service-item .icon {
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
+}
+
+
+.icon > svg{
+    width:25%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.icon > img{
+    width:25%;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 section.services .service-item h4 {
