@@ -68,8 +68,10 @@ body {
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.65;
+    /* font-size: 16px;
+    line-height: 1.65; */
+    font-size: 13px;
+    line-height: 1;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -1221,7 +1223,9 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     opacity: 1;
   }
 
-
+.add-cursor{
+    cursor:pointer;
+}
 .blog-icons a{
     /* padding: 15px; */
     display: inline-block;
@@ -1312,7 +1316,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     font-size: 20px;
     font-weight: 600;
     color: #222;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .blogs .blog-item .blog-content p {
