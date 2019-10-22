@@ -1190,6 +1190,80 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
 /*============ 9. Blogs Section ============*/
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    /* transition: .1s ease; */
+    background-color: rgba(0,0,0,0.65);
+  }
+.blog-img:hover .overlay .overlay-text{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    width:100%
+}
+
+.blog-img:hover .overlay {
+    /* opacity: 0.5; */
+    opacity: 1;
+  }
+
+
+.blog-icons a{
+    /* padding: 15px; */
+    display: inline-block;
+    font-size: 15px;
+    line-height: 66px;
+    text-align: center;
+    background-color:transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog-icons a .fa {
+    color: #fff;
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+}
+
+.blog-icons a:hover {
+    border: 1px solid red;
+    background: transparent;
+    line-height: 66px;
+}
+
+.blog-icons a:hover .fa {
+    color:red;
+}
+
+
+
+  
+
+
+
 .blogs .owl-carousel .owl-stage-outer {
     padding: 15px 0;
 }
@@ -1211,16 +1285,23 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 .blogs .blog-item .blog-img img {
     display: block;
     width: 100%;
-    -webkit-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
 }
 
-.blogs .blog-item .blog-img img:hover {
+/* .blogs .blog-item .blog-img img:hover {
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
+} */
+
+.blogs .blog-item .blog-img:hover img {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
+
 
 .blogs .blog-item .blog-content {
     padding: 30px 15px 15px;
