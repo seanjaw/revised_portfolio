@@ -1192,6 +1192,32 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
 /*============ 9. Blogs Section ============*/
 
+/* .modal.fade .modal-dialog {
+    opacity: 0;
+    -webkit-transition: opacity 0.25s linear;
+       -moz-transition: opacity 0.25s linear;
+        -ms-transition: opacity 0.25s linear;
+         -o-transition: opacity 0.25s linear;
+            transition: opacity 0.25s linear;
+  } */
+
+  .modal.fade .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+}
+
+.blog-image-resize{
+    height: 226px;
+    width: 480px;
+    margin: 50px;
+    margin-top: 25px;
+}
+
+.text-css{
+    margin: 50px;
+    line-height: 1.5em;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -1225,6 +1251,12 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
 .add-cursor{
     cursor:pointer;
+    border-bottom: 1px solid #aaa;
+}
+
+.add-cursor:hover{
+    color: red;
+    border-bottom: 1px solid red;
 }
 .blog-icons a{
     /* padding: 15px; */
@@ -1336,9 +1368,11 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
 .blogs .blog-item .blog-content .blog-meta .more {
     color: #222;
-    border-bottom: 1px solid #aaa;
+    /* border-bottom: 1px solid #aaa; */
     font-weight: 600;
 }
+
+
 
 .blogs .blog-item .blog-content .blog-meta .date {
     float: right;
