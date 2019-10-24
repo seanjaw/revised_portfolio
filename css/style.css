@@ -695,7 +695,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .banner .banner-caption h1 {
-    font-size: 88px;
+    font-size: 70px;
     font-weight: 900;
     color: #fff;
 }
@@ -1062,6 +1062,11 @@ section.services .service-item:hover .icon {
 
 /*============ 8. Portfolio Section ============*/
 
+.add-border{
+    /* border-style: solid;
+    border-color: #f2f2f2;
+    border-width: 1px; */
+}
 section.portfolio .portfolio-filter {
     margin-bottom: 40px;
 }
@@ -1309,8 +1314,8 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     padding-bottom: 20px;
 }
 .blogs .blog-item {
-    -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.1);
+    /* -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.1); */
 }
 
 .blogs .blog-item .blog-img {
@@ -1716,7 +1721,7 @@ section.banner-blog .banner-caption h1 {
         background-color: transparent;
     }
     .banner .banner-caption h1 {
-        font-size: 75px;
+        font-size: 70px;
     }
     .banner .banner-caption p {
         font-size: 21px;
