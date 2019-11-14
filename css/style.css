@@ -784,6 +784,11 @@ nav.fixed-top .nav-item .nav-link:before {
     color: #fff;
 }
 
+.arrow-style {
+    position: absolute;
+    right: 50%;
+}
+
 .bounce {
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
@@ -1258,13 +1263,19 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
 .add-cursor{
     cursor:pointer;
-    border-bottom: 1px solid #aaa;
+    /* border-bottom: 1px solid #aaa; */
 }
 
-.add-cursor:hover{
+/* .add-cursor:hover{
     color: red;
     border-bottom: 1px solid red;
-}
+} */
+
+h3:hover {
+    color: red;
+  }
+
+
 .blog-icons a{
     /* padding: 15px; */
     display: inline-block;
@@ -1328,9 +1339,9 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 .blogs .blog-item .blog-img img {
     display: block;
     width: 100%;
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
-    transition: all .25s;
+    -webkit-transition: all .30s;
+    -o-transition: all .30s;
+    transition: all .30s;
 }
 
 /* .blogs .blog-item .blog-img img:hover {
@@ -1340,14 +1351,14 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 } */
 
 .blogs .blog-item .blog-img:hover img {
-    -webkit-transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    transform: scale(1.25);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 
 .blogs .blog-item .blog-content {
-    padding: 30px 15px 15px;
+    padding: 15px 15px 15px;
     background: #fff;
 }
 
@@ -1356,12 +1367,19 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     font-weight: 600;
     color: #222;
     /* margin-bottom: 15px; */
+    border-top: 1px solid #f7f7f7;
+    margin-top: 0;
+    padding-top:20px;
+}
+.blogs .blog-item .blog-content h3:hover{
+    color:red;
 }
 
 .blogs .blog-item .blog-content p {
     padding-bottom: 20px;
     border-bottom: 1px solid #f7f7f7;
     margin-bottom: 0;
+    color: grey;
 }
 
 .blogs .blog-item .blog-content .blog-meta {
