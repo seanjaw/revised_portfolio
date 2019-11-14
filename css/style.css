@@ -784,6 +784,11 @@ nav.fixed-top .nav-item .nav-link:before {
     color: #fff;
 }
 
+.arrow-style {
+    position: absolute;
+    right: 50%;
+}
+
 .bounce {
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
@@ -1353,7 +1358,7 @@ h3:hover {
 
 
 .blogs .blog-item .blog-content {
-    padding: 30px 15px 15px;
+    padding: 15px 15px 15px;
     background: #fff;
 }
 
@@ -1362,6 +1367,9 @@ h3:hover {
     font-weight: 600;
     color: #222;
     /* margin-bottom: 15px; */
+    border-top: 1px solid #f7f7f7;
+    margin-top: 0;
+    padding-top:20px;
 }
 .blogs .blog-item .blog-content h3:hover{
     color:red;
@@ -1371,6 +1379,7 @@ h3:hover {
     padding-bottom: 20px;
     border-bottom: 1px solid #f7f7f7;
     margin-bottom: 0;
+    color: grey;
 }
 
 .blogs .blog-item .blog-content .blog-meta {
