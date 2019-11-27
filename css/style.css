@@ -1243,7 +1243,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     width: 100%;
     opacity: 0;
     /* transition: .1s ease; */
-    background-color: rgba(0,0,0,0.60);
+    background-color: rgba(0,0,0,0.70);
   }
 .blog-img:hover .overlay .overlay-text{
     color:white;
@@ -1428,8 +1428,10 @@ h3:hover {
 .make-grey{
     color: #DDDDDD;
     font-size: 12px;
+
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10px;
 }
 
 /*============ 10. Testimonial Section ============*/
