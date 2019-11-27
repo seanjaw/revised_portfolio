@@ -876,7 +876,9 @@ nav.fixed-top .nav-item .nav-link:before {
   left: 0;
   height: 100vh;
   width: 100%;
-  z-index: 15;
+  /* z-index: 15; */
+  z-index: 1;
+
 }
 
 
