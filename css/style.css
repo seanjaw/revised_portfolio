@@ -697,7 +697,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .banner .banner-caption h1 {
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 900;
     color: #fff;
 }
@@ -1743,7 +1743,7 @@ section.banner-blog .banner-caption h1 {
         background-color: transparent;
     }
     .banner .banner-caption h1 {
-        font-size: 70px;
+        font-size: 75px;
     }
     .banner .banner-caption p {
         font-size: 21px;
