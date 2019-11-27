@@ -1076,6 +1076,7 @@ section.services .service-item:hover .icon {
     border-color: #f2f2f2;
     border-width: 1px; */
 }
+
 section.portfolio .portfolio-filter {
     margin-bottom: 40px;
 }
@@ -1111,7 +1112,7 @@ section.portfolio .portfolio-filter ul li.sel-item {
 }
 
 section.portfolio .portfolio-items .item {
-    /* margin-bottom: 30px; */
+    margin-bottom: 15px;
 }
 
 section.portfolio .portfolio-items .item .item-content {
@@ -1277,6 +1278,10 @@ h3:hover {
     color: red;
   }
 
+/* a:hover .overlay .overlay-text{
+    color: red;
+} */
+
 
 .blog-icons a{
     /* padding: 15px; */
@@ -1414,6 +1419,18 @@ h3:hover {
     margin-bottom: 50px;
 }
 
+/* make header color white  */
+.make-white:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.make-grey{
+    color: #DDDDDD;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /*============ 10. Testimonial Section ============*/
 
