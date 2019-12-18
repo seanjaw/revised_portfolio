@@ -770,6 +770,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .cd-headline b.is-visible {
     opacity: 1;
     font-weight: 700;
+    background-color: rgb(70,130,180, 1);
 }
 
 .arrow {
