@@ -760,7 +760,9 @@ nav.fixed-top .nav-item .nav-link:before {
     right: 0;
     width: 2px;
     height: 70%;
-    background-color: #aebcb9;
+    /* background-color: #aebcb9; */
+    background-color:orange;
+
 }
 
 .cd-headline.clip b {
@@ -770,7 +772,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .cd-headline b.is-visible {
     opacity: 1;
     font-weight: 700;
-    background-color: rgb(70,130,180, 1);
+    /* background-color: rgb(70,130,180, 1); */
 }
 
 .arrow {
