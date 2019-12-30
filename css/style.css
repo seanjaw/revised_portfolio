@@ -282,6 +282,15 @@ span {
 .pt-100 {
     padding-top: 100px !important;
 }
+.pt-150 {
+    padding-top: 150px !important;
+}
+.pt-175 {
+    padding-top: 175px !important;
+}
+.pt-200 {
+    padding-top: 200px !important;
+}
 /* Custom Padding top */
 .pb-0 {
     padding-bottom: 0 !important;
@@ -345,6 +354,15 @@ span {
 }
 .pb-100 {
     padding-bottom: 100px !important;
+}
+.pb-150 {
+    padding-bottom: 150px !important;
+}
+.pb-175 {
+    padding-bottom: 175px !important;
+}
+.pb-200 {
+    padding-bottom: 200px !important;
 }
 .p-0 {
     padding: 0 !important;
